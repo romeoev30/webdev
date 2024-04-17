@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.header {
+    border: 1px solid red;
+    height: 60px;
+
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.left__section {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    border: 2px solid green;
+    
+}
+
+.img__logo,
+.hamburger__logo {
+    height: 20px;
+    
+    
+}
+.hamburger__logo {
+    margin-right: 20px;
+}
+
