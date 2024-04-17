@@ -4,26 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style/header.css" />
-
-    <title>Web Dev</title>
+    <title>WebDev</title>
   </head>
   <body>
-    <div class="header">
-      <div class="left__section">
+    <header class="header">
+      <div class="left">
         <div class="hamburger">
-          <img
-            src="header/img/hamburger-menu.svg"
-            alt=""
-            class="hamburger__logo"
-          />
+          <img src="header/img/hamburger-menu.svg" alt="" class="logo" />
         </div>
-
-        <div class="logo">
-          <img src="header/img/youtube-logo.svg" alt="" class="img__logo" />
+        <div class="youtube">
+          <img src="header/img/youtube-logo.svg" alt="" class="logo" />
         </div>
       </div>
-      <div class="mid__section">mid</div>
-      <div class="right__section">right</div>
-    </div>
+      <div class="mid">
+        <input type="text" class="search" />
+        <button class="searchBtn">
+          <img src="header/img/search.svg" alt="search button" />
+        </button>
+      </div>
+      <div class="right">
+        <div class="upload"></div>
+        <div class="notification"></div>
+        <div class="profile"></div>
+      </div>
+    </header>
   </body>
 </html>

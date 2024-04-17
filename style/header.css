@@ -5,34 +5,80 @@
     
 }
 
-
 .header {
-    border: 1px solid red;
     height: 60px;
-
-}
-.header {
+    border: 5px solid grey;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 
-.left__section {
+
+.logo {
+   height: 25px;
+  
+}
+
+.left {
     display: flex;
-    flex-direction: row;
-    width: 500px;
-    border: 2px solid green;
-    
+    width: 300px;
+    border: 5px solid green;
+    padding: 5px 0px 5px 20px;
 }
 
-.img__logo,
-.hamburger__logo {
-    height: 20px;
-    
-    
-}
-.hamburger__logo {
-    margin-right: 20px;
+.hamburger {
+    margin-right: 30px;
 }
 
+
+.mid {
+    display: flex;
+}
+
+.search{
+    height: 40px;
+    width:500px;
+    border-radius: 50px 0 0 50px;
+    border: 1px solid black;
+    outline-color:#065fd4;
+}
+
+.searchBtn {
+    width: 80px;
+    height: 40px;
+    border-radius: 0 50px 50px 0px;
+    border: .5px solid gray;
+}
+.searchBtn > img {
+    height: 100%;
+}
+
+
+
+.right {
+    display: flex;
+    
+    padding: 5px 20px 5px 0px;
+}
+.right > div { 
+    width:50px ;
+    height: 50px;
+    border: 2px solid red;
+    margin-left: 20px;
+
+    cursor: pointer;
+}
+
+.upload {
+    background-image: url(../header/img/upload.svg);
+}
+
+.notification {
+    background-image:url(../header/img/notifications.svg) ;
+}
+
+.profile {
+}
