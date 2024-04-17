@@ -84,17 +84,46 @@
 
     cursor: pointer;
     padding: 10px;
+    position: relative;
 }
 
 .upload:hover,
 .notification:hover,
-.profile :hover {
+.profile :hover  {
     transition: 500ms;
     background-color: #e3e4e6;
+}
+
+.upload:hover  .linkText{
+    /* display: block; */
+    visibility: visible;
+}
+.notification:hover  .linkText{
+    /* display: block; */
+    visibility: visible;
+}
+.profile:hover  .linkText{
+    /* display: block; */
+    visibility: visible;
 }
 
 .rightImg {
     width: 100%;
     height: 100%;
 
+}
+.linkText {
+    background-color:#d2d3d5 ;
+    width: 60px;
+    height: 30px;
+    padding: 5px;
+    position: absolute;
+    top: 60px;
+    left: 0px;
+
+    visibility: hidden;
+}
+
+.notification > div {
+    width: 90px;
 }
